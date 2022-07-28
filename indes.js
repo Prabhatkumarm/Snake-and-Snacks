@@ -98,10 +98,10 @@ function drawSnake(){
 function changeDirection(event){
     const keyPressed= event.keyCode;
     
-    const LEFT = 37;
-    const UP =38;
-    const RIGHT = 39;
-    const DOWN =40;
+    const LEFT = ArrowLeft;
+    const UP =ArrowUp;
+    const RIGHT = ArrowRight;
+    const DOWN =ArrowDown;
 
     const goingUp=(yvelocity== -unitSize);
     const goingDown=(yvelocity== unitSize);
